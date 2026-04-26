@@ -25,21 +25,10 @@ models safely without downtime.
 The current implementation runs MNIST classification end-to-end, but the architecture is intentionally
 domain-agnostic — designed to be extended to any classification task with minimal changes.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ml-system-c4-l1.jpg" title="System context diagram" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    <!-- PLACEHOLDER: export the C4 Level 1 diagram from the docs as an image. It is available as an SVG at https://kmikol.github.io/ml-system/architecture/c4-level-1/ -->
-    System context: external actors, system boundaries, and high-level information flows.
-</div>
-
----
-
 ## Architecture
 
-The system is built around three core principles, each of which drove concrete design decisions.
+The system is organized around live serving, background retraining, storage facades, and observability.
+Those parts are tied together by three core principles, each of which drove concrete design decisions.
 
 ### Separation of Concerns
 
