@@ -1,13 +1,8 @@
 cv:
   name: Kamil Mikolaj
-  label: Machine Learning Engineer
+  headline: Machine Learning Engineer
   email: kmikol.public@icloud.com
   location: Copenhagen, Denmark
-  address:
-    city: Copenhagen
-    region: Denmark
-  image: ""
-  summary: ML engineer with a track record of owning systems end-to-end across MLOps, computer vision, and 3D reconstruction. Comfortable at every layer of the stack — from C++ to Kubernetes-based retraining pipelines. Background in a domain where evaluation rigour and data quality aren't optional, which shapes how I approach production ML generally.
 
   social_networks:
     - network: GitHub
@@ -18,13 +13,16 @@ cv:
       username: u3P6_bEAAAAJ
 
   sections:
+    Summary:
+      - ML engineer with a track record of owning systems end-to-end across MLOps, computer vision, and 3D reconstruction. Comfortable at every layer of the stack — from C++ to Kubernetes-based retraining pipelines. Background in a domain where evaluation rigour and data quality aren't optional, which shapes how I approach production ML generally.
+
     Experience:
 
       - company: Dalux
         position: Machine Learning and Computer Vision Engineer
         location: Copenhagen
         start_date: 2025-11
-        end_date: Present
+        end_date: present
         summary: Applying ML and computer vision to BIM and construction site understanding — building production systems across data pipelines, model training, and inference, with visibility into cloud deployment (AWS, Kubernetes, Argo) and monitoring (Prometheus/Grafana).
         # highlights:
         #   - Machine Learning
@@ -77,7 +75,7 @@ cv:
       - institution: Technical University of Denmark (DTU)
         location: Kongens Lyngby
         area: Applied Mathematics and Computer Science (Visual Computing)
-        studyType: PhD
+        degree: PhD
         start_date: 2022-08
         end_date: 2025-10
         highlights:
@@ -87,7 +85,7 @@ cv:
       - institution: Technical University of Denmark (DTU)
         location: Kongens Lyngby
         area: Autonomous Systems Engineering (Honours Programme)
-        studyType: MSc
+        degree: MSc
         start_date: 2020-09
         end_date: 2022-06
         score: "11.8"
@@ -98,7 +96,7 @@ cv:
       - institution: Aalborg University (AAU)
         location: Aalborg, Denmark
         area: Electronics and Computer Engineering
-        studyType: BSc
+        degree: BSc
         start_date: 2017-09
         end_date: 2020-06
         score: "10.8"
@@ -106,46 +104,46 @@ cv:
           - "Thesis: Deep Neural Network Trained on Synthetic Dataset for Quadcopter Navigation. [Publication](https://vbn.aau.dk/ws/portalfiles/portal/559754247/EfficientNavigationCNN_CODIT23.pdf)"
 
     Skills:
-      - name: Modelling
+      - label: Modelling
         icon: fa-solid fa-brain
-        keywords: "Deep Learning, Segmentation, 3D Reconstruction, NeRF, Semi-supervised Learning, Unsupervised Learning, Classification"
+        details: "Deep Learning, Segmentation, 3D Reconstruction, NeRF, Semi-supervised Learning, Unsupervised Learning, Classification"
 
-      - name: Engineering
+      - label: Engineering
         icon: fa-solid fa-code
-        keywords: "Python, C/C++, Systems Design, Inference Optimization, API Design"
+        details: "Python, C/C++, Systems Design, Inference Optimization, API Design"
 
-      - name: Infrastructure
+      - label: Infrastructure
         icon: fa-solid fa-server
-        keywords: "MLOps, Cloud Deployment, Workflow Orchestration, Monitoring, Containerization"
+        details: "MLOps, Cloud Deployment, Workflow Orchestration, Monitoring, Containerization"
 
-      - name: Data
+      - label: Data
         icon: fa-solid fa-database
-        keywords: "Pipeline Design, Annotation, Dataset Curation, Data Quality Assurance"
+        details: "Pipeline Design, Annotation, Dataset Curation, Data Quality Assurance"
 
-      - name: Computer Vision
+      - label: Computer Vision
         icon: fa-solid fa-eye
-        keywords: "Image Processing, Image Analysis, 3D Reconstruction"
+        details: "Image Processing, Image Analysis, 3D Reconstruction"
 
     Tools:
-      - name: ML Frameworks
+      - label: ML Frameworks
         icon: fa-solid fa-microchip
-        keywords: "PyTorch, OpenCV, scikit-learn"
+        details: "PyTorch, OpenCV, scikit-learn"
 
-      - name: Infrastructure & Cloud
+      - label: Infrastructure & Cloud
         icon: fa-brands fa-aws
-        keywords: "AWS, Kubernetes, Docker, Argo Workflows, Argo Rollouts"
+        details: "AWS, Kubernetes, Docker, Argo Workflows, Argo Rollouts"
 
-      - name: Monitoring & Observability
+      - label: Monitoring & Observability
         icon: fa-solid fa-chart-line
-        keywords: "Prometheus, Grafana, Loki"
+        details: "Prometheus, Grafana, Loki"
 
-      - name: MLOps
+      - label: MLOps
         icon: fa-solid fa-gears
-        keywords: "MLflow, ONNX, Helm"
+        details: "MLflow, ONNX, Helm"
 
-      - name: Languages
+      - label: Languages
         icon: fa-solid fa-terminal
-        keywords: "Python, C/C++, MATLAB, LaTeX"
+        details: "Python, C/C++, MATLAB, LaTeX"
 
       # Skills:
       #   - name: Coding
@@ -169,12 +167,12 @@ cv:
       #     keywords: "Communication, Teamwork, Collaboration"
 
     Awards:
-      - title: UK Patent Application GB2636226
+      - name: UK Patent Application GB2636226
         date: 2023
         awarder: UK Patent Office
         summary: A method of, and apparatus for, improved estimation of fetal characteristics.
 
-      - title: UK Patent Application GB2636227
+      - name: UK Patent Application GB2636227
         date: 2023
         awarder: UK Patent Office
         summary: An improved method of, and apparatus for, ultrasound examination to extract fetal characteristics.

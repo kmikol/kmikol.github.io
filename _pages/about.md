@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: ML/CV Engineer and PhD Researcher in Medical Ultrasound
+#subtitle: 
 
 profile:
   align: right

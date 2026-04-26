@@ -13,8 +13,10 @@ on:
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
+      - "Makefile"
       - "Gemfile"
       - "Gemfile.lock"
+      - "requirements.txt"
       - "package.json"
       - "package-lock.json"
       - "purgecss.config.js"
@@ -43,8 +45,10 @@ on:
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
+      - "Makefile"
       - "Gemfile"
       - "Gemfile.lock"
+      - "requirements.txt"
       - "package.json"
       - "package-lock.json"
       - "purgecss.config.js"
@@ -80,6 +84,11 @@ jobs:
           ruby-version: "3.2.2"
           bundler-cache: true
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
       - name: Update _config.yml
         uses: fjogeleit/yaml-update-action@main
         with:
@@ -90,7 +99,8 @@ jobs:
 
       - name: Install and Build
         run: |
-          pip3 install --upgrade jupyter
+          pip3 install -r requirements.txt
+          make cv
           export JEKYLL_ENV=production
           bundle exec jekyll build
 
