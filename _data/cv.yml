@@ -1,0 +1,210 @@
+cv:
+  name: Kamil Mikolaj
+  label: Machine Learning Engineer
+  email: kmikol.public@icloud.com
+  location: Copenhagen, Denmark
+  address:
+    city: Copenhagen
+    region: Denmark
+  image: ""
+  summary: ML engineer with a track record of owning systems end-to-end across MLOps, computer vision, and 3D reconstruction. Comfortable at every layer of the stack — from C++ to Kubernetes-based retraining pipelines. Background in a domain where evaluation rigour and data quality aren't optional, which shapes how I approach production ML generally.
+
+  social_networks:
+    - network: GitHub
+      username: kmikol
+    - network: LinkedIn
+      username: kamilmikolaj
+    - network: Google Scholar
+      username: u3P6_bEAAAAJ
+
+  sections:
+    Experience:
+
+      - company: Dalux
+        position: Machine Learning and Computer Vision Engineer
+        location: Copenhagen
+        start_date: 2025-11
+        end_date: Present
+        summary: Applying ML and computer vision to BIM and construction site understanding — building production systems across data pipelines, model training, and inference, with visibility into cloud deployment (AWS, Kubernetes, Argo) and monitoring (Prometheus/Grafana).
+        # highlights:
+        #   - Machine Learning
+        #   - Teamwork
+        #   - Placeholder: Built and iterated a production-facing computer vision feature in close collaboration with product and engineering stakeholders.
+        #   - Placeholder: Designed model evaluation and monitoring workflows to improve reliability after deployment.
+        #   - Placeholder: Mentored teammates on practical ML experimentation and review practices.
+
+      - company: GE Healthcare
+        position: Visiting Researcher
+        location: Herlev
+        start_date: 2025-01
+        end_date: 2025-03
+        summary: Research and optimization of motion-compensated 3D ultrasound reconstruction for laparoscopic liver workflows.
+        highlights:
+          - Targeted sub-minute runtime per sequence.
+
+      - company: Technical University of Denmark (DTU)
+        position: PhD Student
+        location: Kongens Lyngby
+        start_date: 2022-08
+        end_date: 2025-10
+        summary: End-to-end ML/CV research in obstetric ultrasound in collaboration with Rigshospitalet.
+        highlights:
+          - Technical lead for 3D reconstruction, fetal-growth modeling, heart segmentation, and analysis.
+          - Cut training time by 3x at matched quality for a 3D ultrasound reconstruction pipeline. [Publication](https://link.springer.com/chapter/10.1007/978-3-031-95911-0_27)
+          - Built an automated large-scale ultrasound pipeline for image-based fetal growth regression.
+          - Reduced measurement error by 13% versus current clinical practice. [Publication](https://www.nature.com/articles/s41746-025-01704-0)
+          - Contributed to two UK patents. [Granted](https://www.ipo.gov.uk/p-ipsum/Case/PublicationNumber/GB2636227), [Pending](https://www.ipo.gov.uk/p-ipsum/Case/PublicationNumber/GB2636226)
+          - Built a heart segmentation model with end-user input and deployed a real-time tablet prototype.
+
+      - company: SPS - Specialpaedagogisk Stotte
+        position: Pedagogical Support Teacher, Part-time
+        location: Kongens Lyngby
+        start_date: 2024-04
+        end_date: 2025-12
+        summary: Providing academic and mentoring support to students with special educational needs.
+
+
+      - company: Copenhagen Academy for Medical Education and Simulation (CAMES)
+        position: Research Assistant, Part-time
+        location: Copenhagen
+        start_date: 2021-06
+        end_date: 2022-06
+        summary: Collaborative work between DTU and Rigshospitalet on ML in obstetric ultrasound.
+        highlights:
+          - Contributed to data preprocessing, fetal growth prediction, and multi-institutional project coordination.
+
+    Education:
+      - institution: Technical University of Denmark (DTU)
+        location: Kongens Lyngby
+        area: Applied Mathematics and Computer Science (Visual Computing)
+        studyType: PhD
+        start_date: 2022-08
+        end_date: 2025-10
+        highlights:
+          - "Thesis: From Automated 2D Analysis to 3D Reconstruction: Advancing Ultrasound Imaging with AI-Driven Methods. [Download](https://orbit.dtu.dk/en/publications/from-automated-2d-analysis-to-3d-reconstruction-advancing-ultraso/)"
+          - "[Courses](/assets/grade_transcripts/PhD%20Grades%20Transcript.pdf)"
+
+      - institution: Technical University of Denmark (DTU)
+        location: Kongens Lyngby
+        area: Autonomous Systems Engineering (Honours Programme)
+        studyType: MSc
+        start_date: 2020-09
+        end_date: 2022-06
+        score: "11.8"
+        highlights:
+          - "Thesis: Automatic Detection of Anatomical Structures in Fetal Hearts."
+          - "[Courses](/assets/grade_transcripts/MSc%20Grade%20Transcript.pdf)"
+
+      - institution: Aalborg University (AAU)
+        location: Aalborg, Denmark
+        area: Electronics and Computer Engineering
+        studyType: BSc
+        start_date: 2017-09
+        end_date: 2020-06
+        score: "10.8"
+        highlights:
+          - "Thesis: Deep Neural Network Trained on Synthetic Dataset for Quadcopter Navigation. [Publication](https://vbn.aau.dk/ws/portalfiles/portal/559754247/EfficientNavigationCNN_CODIT23.pdf)"
+
+    Skills:
+      - name: Modelling
+        icon: fa-solid fa-brain
+        keywords: "Deep Learning, Segmentation, 3D Reconstruction, NeRF, Semi-supervised Learning, Unsupervised Learning, Classification"
+
+      - name: Engineering
+        icon: fa-solid fa-code
+        keywords: "Python, C/C++, Systems Design, Inference Optimization, API Design"
+
+      - name: Infrastructure
+        icon: fa-solid fa-server
+        keywords: "MLOps, Cloud Deployment, Workflow Orchestration, Monitoring, Containerization"
+
+      - name: Data
+        icon: fa-solid fa-database
+        keywords: "Pipeline Design, Annotation, Dataset Curation, Data Quality Assurance"
+
+      - name: Computer Vision
+        icon: fa-solid fa-eye
+        keywords: "Image Processing, Image Analysis, 3D Reconstruction"
+
+    Tools:
+      - name: ML Frameworks
+        icon: fa-solid fa-microchip
+        keywords: "PyTorch, OpenCV, scikit-learn"
+
+      - name: Infrastructure & Cloud
+        icon: fa-brands fa-aws
+        keywords: "AWS, Kubernetes, Docker, Argo Workflows, Argo Rollouts"
+
+      - name: Monitoring & Observability
+        icon: fa-solid fa-chart-line
+        keywords: "Prometheus, Grafana, Loki"
+
+      - name: MLOps
+        icon: fa-solid fa-gears
+        keywords: "MLflow, ONNX, Helm"
+
+      - name: Languages
+        icon: fa-solid fa-terminal
+        keywords: "Python, C/C++, MATLAB, LaTeX"
+
+      # Skills:
+      #   - name: Coding
+      #     icon: fa-solid fa-code
+      #     keywords: "Python, MATLAB, C/C++, LaTeX"
+
+      #   - name: Machine Learning and AI
+      #     icon: fa-solid fa-brain
+      #     keywords: "Deep Learning, Unsupervised Learning, Semi-supervised Learning, NeRF, Segmentation, Classification"
+
+      #   - name: Computer Vision
+      #     icon: fa-solid fa-eye
+      #     keywords: "3D Reconstruction, Image Processing, Image Analysis, Computer Vision Techniques"
+
+      #   - name: Medical Imaging
+      #     icon: fa-solid fa-stethoscope
+      #     keywords: "Medical imaging workflows, advanced ultrasound imaging"
+
+      #   - name: Soft Skills
+      #     icon: fa-solid fa-people-group
+      #     keywords: "Communication, Teamwork, Collaboration"
+
+    Awards:
+      - title: UK Patent Application GB2636226
+        date: 2023
+        awarder: UK Patent Office
+        summary: A method of, and apparatus for, improved estimation of fetal characteristics.
+
+      - title: UK Patent Application GB2636227
+        date: 2023
+        awarder: UK Patent Office
+        summary: An improved method of, and apparatus for, ultrasound examination to extract fetal characteristics.
+
+    # Certificates:
+    #   - theme: Software Development
+    #     courses:
+    #       - name: Introduction to DevOps
+    #         date: 2025
+    #         issuer: Coursera
+    #         url: https://coursera.org/share/215bb177c7392998baac82c200d9208d
+
+    #       - name: Introduction to Agile Development and Scrum
+    #         date: 2025
+    #         issuer: Coursera
+    #         url: https://coursera.org/share/972ecfe2e596bb5f40cc864e2662fdaa
+
+    #       - name: Introduction to Test and Behavior Driven Development
+    #         date: 2025
+    #         issuer: Coursera
+    #         url: https://coursera.org/share/a4204864e70963cfc9e9ff9d8954a9fc
+
+    #   - theme: Leadership and Communication
+    #     courses:
+    #       - name: "Stepping Up: Preparing Yourself for Leadership"
+    #         date: 2025
+    #         issuer: Coursera
+    #         url: https://coursera.org/share/0ac80eaaeccfd581d0f2552e5792ec85
+
+    #       - name: Achieving Personal and Professional Success (Specialization)
+    #         date: 2025
+    #         issuer: Coursera
+    #         url: https://coursera.org/share/7a8e71956cc6ff8aea2ad9eba12d6c53

@@ -1,0 +1,57 @@
+{% comment %}
+  Unified certificates entry renderer for both formats
+{% endcomment %}
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    {% assign themed_courses = entry.courses | default: empty %}
+    {% if themed_courses.size > 0 %}
+      <li class="list-group-item">
+        {% if entry.icon %}
+          <i class="{{ entry.icon }}"></i>
+        {% endif %}
+        <strong>{{ entry.theme | default: entry.name }}</strong>
+        <ul class="items mb-0 mt-1">
+          {% for course in themed_courses %}
+            <li>
+              {% if course.url %}
+                <a href="{{ course.url }}" target="_blank">{{ course.name }}</a>
+              {% else %}
+                {{ course.name }}
+              {% endif %}
+
+              {% if course.issuer %}
+                - <em>{{ course.issuer }}</em>
+              {% endif %}
+
+              {% if course.date %}
+                ({{ course.date | split: '-' | slice: 0, 1 | join: '' }})
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% else %}
+      <li class="list-group-item">
+        {% if entry.icon %}
+          <i class="{{ entry.icon }}"></i>
+        {% endif %}
+        {% if entry.url %}
+          <strong
+            ><a href="{{ entry.url }}" target="_blank">{{ entry.name }}</a></strong
+          >
+        {% else %}
+          <strong>{{ entry.name }}</strong>
+        {% endif %}
+
+        {% if entry.issuer %}
+          - <em>{{ entry.issuer }}</em>
+        {% endif %}
+
+        {% if entry.date %}
+          ({{ entry.date | split: '-' | slice: 0, 1 | join: '' }})
+        {% endif %}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
