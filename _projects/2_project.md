@@ -3,8 +3,9 @@ layout: page
 title: mytorch
 description: C++ implementation of PyTorch core functionality from scratch
 img: assets/projects/mytorch/mytorch_computation_graph.svg
-importance: 2
+importance: 4
 category: work
+github: https://github.com/kmikol/mytorch
 giscus_comments: false
 ---
 
@@ -56,13 +57,3 @@ The design follows PyTorch's API closely enough that the concepts transfer direc
 ## Why C++
 
 Python with NumPy would have been faster to write. C++ was the point. Working at this level forces decisions that Python hides: memory ownership of tensors and gradient buffers, how operator overloading interacts with the computation graph, and where numerical precision actually matters. The build system uses CMake with a Dockerfile for reproducible environments.
-
----
-
-## What I learned
-
-<!-- PLACEHOLDER: 2-3 sentences in your own voice. Good candidates:
-     - Something that surprised you about implementing autograd
-     - A numerical issue you hit (e.g. softmax overflow before adding max subtraction)
-     - What the implementation taught you about how PyTorch actually behaves
-     - What you would extend next (transformer? GPU kernels?) -->

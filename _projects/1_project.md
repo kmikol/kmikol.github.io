@@ -148,12 +148,3 @@ Notable decisions include:
 - [ONNX Model Export](https://kmikol.github.io/ml-system/adr/008-onnx-model-export/) — why models are exported to ONNX for serving rather than using framework-native runtimes
 
 **[Read all ADRs →](https://kmikol.github.io/ml-system/adr/)**
-
----
-
-## What I Learned
-
-<!-- PLACEHOLDER: 2-3 sentences in your own voice about what building this taught you.
-     Good candidates: what surprised you about running ML in Kubernetes, something about
-     canary rollouts that wasn't obvious until you implemented it, or a decision you'd
-     make differently. This is the section that makes the project memorable. -->
