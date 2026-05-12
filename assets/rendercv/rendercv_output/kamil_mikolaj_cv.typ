@@ -6,7 +6,7 @@
   name: "Kamil Mikolaj",
   title: "Kamil Mikolaj - CV",
   footer: context { [#emph[Kamil Mikolaj -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Apr 2026] ],
+  top-note: [ #emph[Last updated in May 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 4,
-    day: 26,
+    month: 5,
+    day: 12,
   ),
 )
 
@@ -119,7 +119,7 @@ ML engineer with a track record of owning systems end-to-end across MLOps, compu
 
     
 
-    6 months
+    7 months
 
   ],
 )

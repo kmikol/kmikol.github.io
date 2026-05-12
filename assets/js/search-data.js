@@ -40,6 +40,16 @@ ninja.data = [{
           description: "C++ implementation of PyTorch core functionality from scratch",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-personal-rag-system",
+          title: 'Personal RAG System',
+          description: "Architecture-first self-hosted RAG system being packaged for Kubernetes deployment",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_rag/";
+            },},{id: "projects-homelab-kubernetes-cluster",
+          title: 'Homelab Kubernetes Cluster',
+          description: "Bare-metal Kubernetes platform for self-hosted ML, RAG, and future projects",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_cluster/";
             },},{
         id: 'social-cv',
         title: 'CV',
