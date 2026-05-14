@@ -3,5 +3,7 @@ design:
   theme: classic
   page:
     size: a4
-    show_footer: false
-    show_top_note: false
+    show_page_numbering: false
+    show_last_updated_date: false
+  links:
+    use_external_link_icon: false

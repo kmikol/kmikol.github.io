@@ -61,7 +61,7 @@ layout: default
         {% assign cv = site.data.cv.cv %}
 
         <!-- Header/Contact Information -->
-        {% if cv.name or cv.label or cv.headline or cv.location or cv.email or cv.phone or cv.website %}
+        {% if cv.name or cv.label or cv.headline or cv.location or cv.email or cv.phone %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Contact Information</h3>
             <table class="table table-cv table-sm table-borderless">
@@ -94,19 +94,19 @@ layout: default
                     {% assign linkedin_username = social.username %}
                   {% endif %}
                 {% endfor %}
-                {% if linkedin_username %}
-                  <tr>
-                    <td class="p-1 pr-2 font-weight-bold"><b>LinkedIn</b></td>
-                    <td class="p-1 pl-2 font-weight-light">
-                      <a href="https://www.linkedin.com/in/{{ linkedin_username }}" target="_blank" rel="noopener noreferrer">linkedin.com/in/{{ linkedin_username }}</a>
-                    </td>
-                  </tr>
-                {% endif %}
                 {% if github_username %}
                   <tr>
                     <td class="p-1 pr-2 font-weight-bold"><b>GitHub</b></td>
                     <td class="p-1 pl-2 font-weight-light">
                       <a href="https://github.com/{{ github_username }}" target="_blank" rel="noopener noreferrer">github.com/{{ github_username }}</a>
+                    </td>
+                  </tr>
+                {% endif %}
+                {% if linkedin_username %}
+                  <tr>
+                    <td class="p-1 pr-2 font-weight-bold"><b>LinkedIn</b></td>
+                    <td class="p-1 pl-2 font-weight-light">
+                      <a href="https://www.linkedin.com/in/{{ linkedin_username }}" target="_blank" rel="noopener noreferrer">linkedin.com/in/{{ linkedin_username }}</a>
                     </td>
                   </tr>
                 {% endif %}
@@ -125,14 +125,6 @@ layout: default
                     {% if cv.address.city %}{{ cv.address.city }}, {% endif %}
                     {% if cv.address.region %}{{ cv.address.region }} {% endif %}
                     {% if cv.address.postalCode %}{{ cv.address.postalCode }}{% endif %}
-                  </td>
-                </tr>
-              {% endif %}
-              {% if cv.website %}
-                <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Website</b></td>
-                  <td class="p-1 pl-2 font-weight-light">
-                    <a href="{{ cv.website }}" target="_blank">{{ cv.website }}</a>
                   </td>
                 </tr>
               {% endif %}
