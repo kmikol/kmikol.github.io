@@ -1,7 +1,7 @@
 CV_INPUT := _data/cv.yml
 CV_TYP := assets/rendercv/rendercv_output/Kamil_Mikolaj_CV.typ
 CV_PDF := assets/rendercv/rendercv_output/kamil_mikolaj_cv.pdf
-PYTHON ?= python3.11
+PYTHON ?= python3
 
 .PHONY: cv
 cv:
